@@ -1,3 +1,4 @@
+![](file://~/code/piglint/piglint.png)
 # PigLint 
 ## (An Apache Pig syntax checker)
 
