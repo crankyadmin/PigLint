@@ -5,7 +5,7 @@ import argparse
 import sys
 from os import path
 
-REGISTER = re.compile("REGISTER\s'(.*)';")
+REGISTER = re.compile("REGISTER\s'(.*)'.+")
 ALIAS = re.compile("(\w+)\s+=.*(.*)")
 STREAM = re.compile("(\w+)(\s|.+)=\s(STREAM|stream)\s(\w+)\s(THROUGH|through)\s(\w+);")
 DEFINE = re.compile("^(DEFINE|define)\s(\w+)\s`(\w+.+)`")
